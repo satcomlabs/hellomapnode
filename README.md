@@ -22,3 +22,6 @@ The map will automatically call the Inmarsat Global Xpress sandbox API every min
 
 Find out more about the Inmarsat APIs at http://developer.inmarsat.com
 
+![Screenshot](http://i.imgur.com/7MkpYeR.png "Screenshot")
+
+
