@@ -9,8 +9,11 @@ git clone https://github.com/Inmarsat/hellomapnode.git
 Then use the following commands in the command prompt in the same directory
 
 cd hellomapnode
+
 npm install
+
 npm install node-rest-client
+
 npm start
 
 Now go to http://localhost:3000/googlemap or http://localhost:3000/esrimap
