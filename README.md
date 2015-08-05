@@ -17,3 +17,5 @@ Now go to http://localhost:3000/googlemap or http://localhost:3000/esrimap
 
 The map will automatically call the Inmarsat Global Xpress sandbox API every minute and update the map when a new location point is received.
 
+Find out more about the Inmarsat APIs at http://developer.inmarsat.com
+
