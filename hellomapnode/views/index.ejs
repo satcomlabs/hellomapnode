@@ -3,12 +3,25 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
-    <title>SimpleMarkerSymbol with SVG Path - Simplified</title>
-    <link rel="stylesheet" href="http://js.arcgis.com/3.13/dijit/themes/claro/claro.css">
-    <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>CP Demo</title>
   </head>
-  <body class="claro">
-    HELLO
+  <body>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">Hello Node Map!</a>
+          </div>
+        </div><!--/.container-fluid -->
+      </nav>
+  <div class="container">
+    <div class="jumbotron">
+        <p class="text-primary">An Express.js and Node.js Sample Project Using ESRI Maps, Google Maps And The Inmarsat Location API</p>
+        <a class="btn btn-lg btn-success" href="#" role="button" onclick="openMap()">Open The Map</a></p>
+    </div>
+  <p>After clicking the button the ESRI map will open and the Inmarsat Location API will be called. The Location API is called again every 60 seconds and a marker added to the map if a new location is returned</p>
+  </div>
+    <script>function openMap(){window.location.href = '/esrimap'}</script>
   </body>
 </html>
-
