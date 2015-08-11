@@ -5,17 +5,17 @@ In order to run this project you will need to install [Node.js](https://nodejs.o
 
 Once installed clone this project by opening a command prompt and entering
 
-'''
+```
 git clone https://github.com/Inmarsat/hellomapnode.git
-'''
+```
 
 Then use the following commands using the command prompt in the same directory
 
-'''
+```
 cd hellomapnode
 npm install
 npm start
-'''
+```
 
 Now go to http://localhost:3000 and click the button to see the maps in action
 
